@@ -1,0 +1,52 @@
+h1{
+color: blue;
+font-size: large;
+background: chartreuse;
+text-align: center;
+}
+#header{
+    text-decoration: none;
+    display: flex;
+}
+a:link{
+    color: darkgoldenrod;
+    text-decoration: none;
+    
+}
+a:visited{
+    color: darkgreen;
+    text-decoration: none;
+
+}
+a:hover{
+    color: darkred;
+    text-decoration: none;
+
+}
+a:active{
+    color: darkviolet;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 200px;
+    text-decoration: underline;
+    width: 50%;
+    list-style-type: none;
+  
+    
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
